@@ -21,7 +21,8 @@ def now_serving(array, name)
   if array.length == 0 
     puts "There is no one in line."
   else
-    array.pop(name)
+    array.pop
+    array
     puts "Currently serving #{name}."
   end
 end
