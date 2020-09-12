@@ -23,6 +23,6 @@ def now_serving(array, name)
   else
     array.pop
     array
-    puts "Currently serving #{name}."
+    puts "Currently serving #{array.pop}."
   end
 end
