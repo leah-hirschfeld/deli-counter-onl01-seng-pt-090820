@@ -3,8 +3,9 @@
 def line(array)
   array.each_with_index do |i, index|
     if array.length == 1 
-      puts "There is "
-    puts "The line is currently #{index+1}. #{i}"
+      puts "The line is empty. "
+    else 
+      puts "The line is currently #{index+1}. #{i}"
 end    
 
 def take_a_number(array, name)
