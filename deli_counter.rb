@@ -13,9 +13,7 @@ def line(array)
 end   
 
 def take_a_number(array, name)
-  if array.length == 0 
-    puts "There is nobody in line."
-  else 
+  array.each_with_index do |name, index|
     puts "Welcome, #{name}. You are number #{index} in line"
   end
 end
