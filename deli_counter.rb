@@ -2,7 +2,7 @@
 
 def line(array)
   array.each_with_index do |i, index|
-    if array.length == 1 
+    if array.length == 0
       puts "The line is empty."
     else 
       puts "The line is currently #{index+1}. #{i}"
