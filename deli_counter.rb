@@ -17,3 +17,9 @@ def take_a_number(array, name)
     puts "Welcome, #{name}. You are number #{array.length} in line."
 end
 
+def now_serving
+  if array.length == 0 
+    puts "There is no one in line."
+  else 
+    puts 
+end
