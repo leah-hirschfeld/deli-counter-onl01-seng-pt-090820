@@ -1,4 +1,4 @@
-def take_a_number(array), name)
+def take_a_number(array, name)
   array = []
   array << "name"
   array.each_with_index do |i, index|
