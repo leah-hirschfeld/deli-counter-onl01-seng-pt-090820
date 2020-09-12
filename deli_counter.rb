@@ -18,7 +18,7 @@ def take_a_number(array, name)
 end
 
 def now_serving(array, name)
-  if array.length == 0 
+  if array.length == 1 
     puts "There is no one in line."
   else
     array.pop
